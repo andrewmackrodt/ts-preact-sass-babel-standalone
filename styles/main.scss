@@ -1,0 +1,26 @@
+$text-primary-color: #000000;
+$header-top-color: #f5f5f5;
+$header-bottom-color: #e6e6e6;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, $header-top-color 50%, $header-bottom-color 0%);
+    color: $text-primary-color;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#app > .container {
+    align-items: center;
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+    margin-top: -25vh;
+    min-height: 100vh;
+    text-align: center;
+}
